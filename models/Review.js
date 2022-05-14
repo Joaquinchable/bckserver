@@ -1,6 +1,6 @@
 const { DataTypes, Sequelize } = require('sequelize');
 
-module.exports = (sequelize) => sequelize.define('reviews', {
+module.exports = (sequelize) => sequelize.define('rveiews', {
   id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
   content: DataTypes.TEXT,
   productId: {

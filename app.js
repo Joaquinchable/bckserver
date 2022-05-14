@@ -1,6 +1,10 @@
 const express = require('express');
-const { json } = require('express/lib/response');
 const app = express();
+const helmet = require('helmet');
+const cors = require('cors');
+
+app.use(helmet());
+app.use(cors());
 
 // body-parser
 app.use(express.urlencoded({ extended: true }));
@@ -14,13 +18,6 @@ app.listen(3001, () => {
   });
 
 
- 
-// Productos 
-// Review
-// Users 
-// Order 
-
-// crear la relacion entre Productos Users y Order
-
-// Como instalar mariadb 
-// Fundamentos de mariadb Video 
+  //  Reto final es generar la conxion entre mi back y mi base de datos
+  
+  // Repositorio de proyecto personal con la esctructura ya vista de el modulo back con node
