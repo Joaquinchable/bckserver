@@ -1,8 +1,8 @@
 {
     "development": {
-      "username": "root",
-      "password": "root",
-      "database": "ecommerce-apidos",
+      "username": "joako",
+      "password": "mypassword2",
+      "database": "dbecommerce",
       "host": "127.0.0.1",
       "port": "3306",
       "dialect": "mariadb"

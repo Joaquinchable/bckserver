@@ -16,8 +16,3 @@ app.use('/api', require('./routes'));
 app.listen(3001, () => {
     console.log(`Express on port 3001`);
   });
-
-
-  //  Reto final es generar la conxion entre mi back y mi base de datos
-  
-  // Repositorio de proyecto personal con la esctructura ya vista de el modulo back con node
